@@ -12,10 +12,7 @@ class Solution:
                     return_list.append(i)
             return return_list
         
-        s_proc = process_string(s)
-        t_proc = process_string(t)
-        
-        return True if s_proc == t_proc else False
+        return True if process_string(s) == process_string(t) else False
     
     
     
