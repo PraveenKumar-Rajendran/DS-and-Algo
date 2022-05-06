@@ -11,7 +11,7 @@ class Solution:
             
             if stack[-1][1] == k:
                 stack.pop() # pop it if it reaches the k duplicates
-        res = "" # Initialize string
+        res = str() # Initialize string
         for char, count in stack:
             res += (char * count)
         
