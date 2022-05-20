@@ -27,3 +27,10 @@ class Solution:
                     obstacleGrid[i][j] = 0
                     
         return obstacleGrid[m_rows-1][n_cols-1] #Return possible unique paths to the destination
+    
+# Reference: Leetcode Solution
+
+# Complexity Analysis
+
+# Time Complexity: O(M×N). The rectangular grid given to us is of size M×N and we process each cell just once.
+# Space Complexity: O(1). We are utilizing the obstacleGrid as the DP array. Hence, no extra space.
