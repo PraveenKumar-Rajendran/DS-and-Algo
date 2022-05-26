@@ -1,11 +1,12 @@
 class Solution:
     def hammingWeight(self, n: int) -> int:
-        result = 0
-        while n:
-            n = (n & (n-1))
-            result += 1
-            
-#         for i in range(32):
-#             result += ((n & (1 << i)) != 0)
         
-        return result
+        
+        Hamming_weight = 0
+        
+        while n:
+            n = n & (n-1) # Eleminates a set bit each time thus making it zero after the set bits are over
+            Hamming_weight += 1
+            
+        return Hamming_weight
+        
