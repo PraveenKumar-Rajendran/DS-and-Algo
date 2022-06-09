@@ -7,10 +7,10 @@ class Solution:
         
             tot = numbers[left]+numbers[right]
             if tot == target:
-                break
+                return [left+1, right+1]
             elif tot < target:
                 left += 1
             else:
                 right -= 1
         
-        return [left+1, right+1]
+        
