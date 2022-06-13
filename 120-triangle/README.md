@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong> triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
+<pre><strong>Input :</strong> triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
 <strong>Output:</strong> 11
 <strong>Explanation:</strong> The triangle looks like:
    <u>2</u>
